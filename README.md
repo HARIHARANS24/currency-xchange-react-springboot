@@ -107,34 +107,74 @@ React UI Update
 ---
 
 # Project Directory Structure
-
-currency-xchange-react-springboot
-
-backend  
-│  
-├── src  
-│   ├── main  
-│   │   ├── java  
-│   │   │   └── com.example.currencyexchange  
-│   │   │        ├── controller  
-│   │   │        ├── service  
-│   │   │        ├── model  
-│   │   │        └── repository  
-│   │   └── resources  
-│   │        └── application.properties  
-│  
-└── pom.xml  
-
-frontend  
-│  
-├── public  
-├── src  
-│   ├── components  
-│   ├── services  
-│   ├── App.js  
-│   └── index.js  
-│  
-└── package.json  
+```
+Directory structure:
+└── hariharans24-currency-xchange-react-springboot/
+    ├── README.md
+    ├── LICENSE
+    ├── Backend/
+    │   ├── HELP.md
+    │   ├── mvnw
+    │   ├── mvnw.cmd
+    │   ├── pom.xml
+    │   ├── src/
+    │   │   ├── main/
+    │   │   │   ├── java/
+    │   │   │   │   └── com/
+    │   │   │   │       └── example/
+    │   │   │   │           └── currencyconverter/
+    │   │   │   │               ├── CurrencyconverterApplication.java
+    │   │   │   │               ├── controller/
+    │   │   │   │               │   └── CurrencyController.java
+    │   │   │   │               ├── model/
+    │   │   │   │               │   └── CurrencyResponse.java
+    │   │   │   │               └── service/
+    │   │   │   │                   └── CurrencyService.java
+    │   │   │   └── resources/
+    │   │   │       └── application.properties
+    │   │   └── test/
+    │   │       └── java/
+    │   │           └── com/
+    │   │               └── example/
+    │   │                   └── currencyconverter/
+    │   │                       └── CurrencyconverterApplicationTests.java
+    │   └── target/
+    │       └── classes/
+    │           ├── application.properties
+    │           └── com/
+    │               └── example/
+    │                   └── currencyconverter/
+    │                       ├── controller/
+    │                       ├── model/
+    │                       └── service/
+    └── Frontend/
+        ├── README.md
+        ├── package-lock.json
+        ├── package.json
+        ├── postcss.config.js
+        ├── tailwind.config.js
+        ├── public/
+        │   ├── index.html
+        │   ├── manifest.json
+        │   └── robots.txt
+        └── src/
+            ├── App.css
+            ├── App.js
+            ├── App.test.js
+            ├── index.css
+            ├── index.js
+            ├── reportWebVitals.js
+            ├── setupTests.js
+            └── components/
+                ├── css/
+                │   ├── CurrencyConverter.css
+                │   ├── RateChart.css
+                │   └── RatesTable.css
+                └── js/
+                    ├── CurrencyConverter.js
+                    ├── RateChart.js
+                    └── RatesTable.js
+```
 
 README.md
 
