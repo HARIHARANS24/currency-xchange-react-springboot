@@ -235,21 +235,6 @@ UI Update
 
 ---
 
-# Screenshots
-
-You can add screenshots of your application interface.
-
-Example structure:
-
-/screenshots/homepage.png  
-/screenshots/conversion.png  
-
-Example markdown usage:
-
-![Home Page](screenshots/homepage.png)
-
----
-
 # Future Improvements
 
 • Integration with real-time exchange rate APIs  
